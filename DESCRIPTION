@@ -7,9 +7,11 @@ Authors@R:
            role = c("aut", "cre"),
            email = "ming0701@gmail.com")
 Description: Convenience functions to make some common tasks with string manipulation and regular expressions a bit easier.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
